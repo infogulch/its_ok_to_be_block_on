@@ -1,0 +1,12 @@
+[package]
+name = "its_ok_to_be_block_on"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures-task = "0.3.30"
+pin-utils = "0.1.0"
+
+[lib]
+name = "block_on"
+path = "lib.rs"
